@@ -1,0 +1,25 @@
+* {
+   font-family: 'Roboto', sans-serif;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #F6F8FC;
+}
+
+
+.content {
+   background-color: #FFFFFF;
+   padding: 1rem;
+   block-size: 100vh;
+   inline-size: 100vw;
+}
+
+@media screen and (min-inline-size: 992px) {
+   .content {
+      max-inline-size: 992px;
+      block-size: auto;
+      margin: 1rem auto;
+   }
+}
+
